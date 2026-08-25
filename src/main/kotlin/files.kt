@@ -8,6 +8,7 @@ fun main() {
     wordsFile.appendText("cat кошка")
 
     for (line in wordsFile.readLines()) {
+        line.split(" ")
         println(line)
     }
 }
